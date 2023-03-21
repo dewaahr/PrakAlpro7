@@ -1,0 +1,92 @@
+python string
+
+len(nama)
+7
+hari='jumat'
+hari
+'jumat'
+
+hari= 'jum"at'
+hari
+'jum"at'
+
+hari='tu\'an\"ku'
+print(hari)
+tu'an"ku
+tabel= 1\t2\t3\t4
+
+tabel='1\t2\t3\t4'
+print(tabel)
+1	2	3	4
+
+buah="pisang"
+buah[3]
+'a'
+buah[-2]
+'n'
+
+
+kata='dutawacana'
+kata[5]
+'a'
+
+kata='duta wacana'
+kata[5]
+'w'
+kata[5:8]
+'wac'
+
+kata[5:10]
+'wacan'
+
+kata[5:11]
+'wacana'
+
+kata[5:]
+'wacana'
+
+kata[5:]
+'wacana'
+kata[::-1]
+'anacaw atud'
+a='kasur ini rusak'
+a[::-1]
+'kasur ini rusak'
+
+menu='sate soto sop mie bakso'
+'baks' in menu
+True
+'bakso' in menu
+True
+'mie' in menu
+True
+
+
+if 'bakso' in menu:
+    posisi=menu.index('bakso')
+    print(posisi)
+else: print('tidak')
+
+18
+
+
+kampus='duta wacana'
+kampus.split('a')
+['dut', ' w', 'c', 'n', '']
+
+tanggal='2023-03-23'
+tanggal.split('-')
+['2023', '03', '23']
+hasil=tanggal.split('-')
+hasil
+['2023', '03', '23']
+print(hasil[::-1])
+['23', '03', '2023']
+
+print(hasil[::-1],sep='/')
+['23', '03', '2023']
+
+ 
+print(*hasil[::-1],sep=' - ')
+ 
+23 - 03 - 2023
