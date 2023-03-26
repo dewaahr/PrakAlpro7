@@ -1,4 +1,4 @@
-def terpendek_terpanjang(kalimat):
+def hapus_spasi(kalimat):
     # kalimat=kalimat.split()
     # print(*kalimat,sep=" ")
     
@@ -6,4 +6,4 @@ def terpendek_terpanjang(kalimat):
     print(hasil)
 
 kalimat=input("Masukan Kalimat:")
-terpendek_terpanjang(kalimat)
+hapus_spasi(kalimat)
